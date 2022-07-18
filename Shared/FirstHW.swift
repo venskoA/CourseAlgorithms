@@ -32,9 +32,13 @@ import Foundation
 class FirstHW {
 
     init() {
+        var iii: Int = 567
         print(firstEx(weight: 83, height: 186))
-        print(secondEx(one: 89, second: 12, theerd: 2347, fourth: 1))
+        print(secondEx(one: 89, second: 12, third: 2347, fourth: 1))
         print(fifthEx(mounth: 55))
+        print(changeValue(number: &iii))
+
+        print(thirtheenthEx())
     }
 
     //MARK: 1. Ввести вес и рост человека. Рассчитать и вывести индекс массы тела по формуле I=m/(h*h); где m-масса тела в килограммах, h - рост в метрах.
@@ -44,7 +48,7 @@ class FirstHW {
     }
 
     //MARK: 2. Найти максимальное из четырех чисел. Массивы не использовать.
-    func secondEx(one: Int, second: Int, theerd: Int, fourth: Int) -> Int {
+    func secondEx(one: Int, second: Int, third: Int, fourth: Int) -> Int {
         var maxOne, maxTwo: Int
 
         if one > second {
@@ -53,8 +57,8 @@ class FirstHW {
             maxOne = second
         }
 
-        if theerd > fourth {
-            maxTwo = theerd
+        if third > fourth {
+            maxTwo = third
         } else {
             maxTwo = fourth
         }
@@ -76,5 +80,29 @@ class FirstHW {
         default:
             return "Enter correct value"
         }
+    }
+
+    //MARK: 13. * Написать функцию, генерирующую случайное число от 1 до 100. без использования стандартной функции rand()
+    func thirtheenthEx() -> Int {
+        var x = 1
+        let a = 2
+        let b = 3
+        let m = 100
+        for _ in 0...10 {
+            x = (a * x + b) % m
+        }
+        return x
+    }
+
+
+    func changeValue(number: inout Int) -> Int {
+        var result: Int = 0
+
+        while(number > 0) {
+            result = result * 10 + number % 10
+            number /= 10
+        }
+
+        return result
     }
 }
