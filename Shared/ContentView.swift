@@ -14,7 +14,9 @@ struct ContentView: View {
                 .padding()
         }
         .onAppear {
-            FirstHW()
+//            FirstHW()
+//            SecondHW()
+            ThirdHW()
         }
     }
 }
