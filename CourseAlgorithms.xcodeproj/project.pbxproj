@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5505627A288BEDE3002E769E /* ThirdHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55056279288BEDE3002E769E /* ThirdHW.swift */; };
+		5505627B288BEDE3002E769E /* ThirdHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55056279288BEDE3002E769E /* ThirdHW.swift */; };
+		5505627E288BEEE6002E769E /* ArrayInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505627D288BEEE6002E769E /* ArrayInt.swift */; };
+		5505627F288BEEE6002E769E /* ArrayInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505627D288BEEE6002E769E /* ArrayInt.swift */; };
+		5517C6F52898485700E9AA9E /* SixHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517C6F42898483700E9AA9E /* SixHW.swift */; };
+		5517C6F62898485700E9AA9E /* SixHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517C6F42898483700E9AA9E /* SixHW.swift */; };
+		55766E6A2891A9AB00760D6A /* FifthHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55766E692891A9AB00760D6A /* FifthHW.swift */; };
+		55766E6B2891A9AB00760D6A /* FifthHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55766E692891A9AB00760D6A /* FifthHW.swift */; };
+		55766E6D2891B43B00760D6A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55766E6C2891B43B00760D6A /* Stack.swift */; };
+		55766E6E2891B43B00760D6A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55766E6C2891B43B00760D6A /* Stack.swift */; };
+		557F1A2B28859B0D00702C79 /* SecondHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F1A2A28859B0D00702C79 /* SecondHW.swift */; };
+		557F1A2C28859B0D00702C79 /* SecondHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F1A2A28859B0D00702C79 /* SecondHW.swift */; };
 		55CC8EB7288496E7000AD354 /* CourseAlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC8EA7288496E4000AD354 /* CourseAlgorithmsApp.swift */; };
 		55CC8EB8288496E7000AD354 /* CourseAlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC8EA7288496E4000AD354 /* CourseAlgorithmsApp.swift */; };
 		55CC8EB9288496E7000AD354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC8EA8288496E4000AD354 /* ContentView.swift */; };
@@ -15,9 +27,19 @@
 		55CC8EBC288496E7000AD354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CC8EA9288496E7000AD354 /* Assets.xcassets */; };
 		55CC8EC92884A273000AD354 /* FirstHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC8EC82884A273000AD354 /* FirstHW.swift */; };
 		55CC8ECA2884A273000AD354 /* FirstHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC8EC82884A273000AD354 /* FirstHW.swift */; };
+		55FAD4BC289300CA00256FF4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD4BB289300CA00256FF4 /* Queue.swift */; };
+		55FAD4BD289300CA00256FF4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD4BB289300CA00256FF4 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55056279288BEDE3002E769E /* ThirdHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdHW.swift; sourceTree = "<group>"; };
+		5505627D288BEEE6002E769E /* ArrayInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInt.swift; sourceTree = "<group>"; };
+		5517C6F42898483700E9AA9E /* SixHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixHW.swift; sourceTree = "<group>"; };
+		554086E0288DA95700CF7ADE /* CourseAlgorithms (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CourseAlgorithms (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		554086E1288DA95700CF7ADE /* CourseAlgorithms (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CourseAlgorithms (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		55766E692891A9AB00760D6A /* FifthHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthHW.swift; sourceTree = "<group>"; };
+		55766E6C2891B43B00760D6A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		557F1A2A28859B0D00702C79 /* SecondHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHW.swift; sourceTree = "<group>"; };
 		55CC8EA7288496E4000AD354 /* CourseAlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseAlgorithmsApp.swift; sourceTree = "<group>"; };
 		55CC8EA8288496E4000AD354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55CC8EA9288496E7000AD354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +47,7 @@
 		55CC8EB4288496E7000AD354 /* CourseAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CC8EB6288496E7000AD354 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		55CC8EC82884A273000AD354 /* FirstHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHW.swift; sourceTree = "<group>"; };
+		55FAD4BB289300CA00256FF4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5505627C288BEEC9002E769E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5505627D288BEEE6002E769E /* ArrayInt.swift */,
+				55766E6C2891B43B00760D6A /* Stack.swift */,
+				55FAD4BB289300CA00256FF4 /* Queue.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		55CC8EA1288496E4000AD354 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +93,14 @@
 				55CC8EA7288496E4000AD354 /* CourseAlgorithmsApp.swift */,
 				55CC8EA8288496E4000AD354 /* ContentView.swift */,
 				55CC8EC82884A273000AD354 /* FirstHW.swift */,
+				557F1A2A28859B0D00702C79 /* SecondHW.swift */,
+				55056279288BEDE3002E769E /* ThirdHW.swift */,
+				55766E692891A9AB00760D6A /* FifthHW.swift */,
+				5517C6F42898483700E9AA9E /* SixHW.swift */,
+				5505627C288BEEC9002E769E /* Helpers */,
 				55CC8EA9288496E7000AD354 /* Assets.xcassets */,
+				554086E0288DA95700CF7ADE /* CourseAlgorithms (iOS)-Bridging-Header.h */,
+				554086E1288DA95700CF7ADE /* CourseAlgorithms (macOS)-Bridging-Header.h */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -131,9 +171,11 @@
 				TargetAttributes = {
 					55CC8EAD288496E7000AD354 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					55CC8EB3288496E7000AD354 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -180,8 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557F1A2B28859B0D00702C79 /* SecondHW.swift in Sources */,
+				5505627A288BEDE3002E769E /* ThirdHW.swift in Sources */,
 				55CC8EB9288496E7000AD354 /* ContentView.swift in Sources */,
+				5517C6F52898485700E9AA9E /* SixHW.swift in Sources */,
+				5505627E288BEEE6002E769E /* ArrayInt.swift in Sources */,
+				55766E6D2891B43B00760D6A /* Stack.swift in Sources */,
 				55CC8EB7288496E7000AD354 /* CourseAlgorithmsApp.swift in Sources */,
+				55766E6A2891A9AB00760D6A /* FifthHW.swift in Sources */,
+				55FAD4BC289300CA00256FF4 /* Queue.swift in Sources */,
 				55CC8EC92884A273000AD354 /* FirstHW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,8 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557F1A2C28859B0D00702C79 /* SecondHW.swift in Sources */,
+				5505627B288BEDE3002E769E /* ThirdHW.swift in Sources */,
 				55CC8EBA288496E7000AD354 /* ContentView.swift in Sources */,
+				5517C6F62898485700E9AA9E /* SixHW.swift in Sources */,
+				5505627F288BEEE6002E769E /* ArrayInt.swift in Sources */,
+				55766E6E2891B43B00760D6A /* Stack.swift in Sources */,
 				55CC8EB8288496E7000AD354 /* CourseAlgorithmsApp.swift in Sources */,
+				55766E6B2891A9AB00760D6A /* FifthHW.swift in Sources */,
+				55FAD4BD289300CA00256FF4 /* Queue.swift in Sources */,
 				55CC8ECA2884A273000AD354 /* FirstHW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DJ55G74KP;
@@ -333,6 +390,8 @@
 				PRODUCT_NAME = CourseAlgorithms;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/CourseAlgorithms (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -343,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DJ55G74KP;
@@ -363,6 +423,7 @@
 				PRODUCT_NAME = CourseAlgorithms;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/CourseAlgorithms (iOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -374,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -393,6 +455,8 @@
 				PRODUCT_NAME = CourseAlgorithms;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/CourseAlgorithms (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -402,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -421,6 +486,7 @@
 				PRODUCT_NAME = CourseAlgorithms;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/CourseAlgorithms (macOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
