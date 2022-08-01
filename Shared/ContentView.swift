@@ -10,14 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, world!")
+            Text("")
                 .padding()
         }
         .onAppear {
 //            FirstHW()
 //            SecondHW()
 //            ThirdHW()
-            FifthHW()
+//            FifthHW()
+            SixHW()
         }
     }
 }
