@@ -105,8 +105,6 @@ class EightHW {
                 sortArray.append(rightRec.removeFirst())
             }
         }
-
         return sortArray + leftRec + rightRec
     }
-
 }
