@@ -18,7 +18,9 @@ struct ContentView: View {
 //            SecondHW()
 //            ThirdHW()
 //            FifthHW()
-            SixHW()
+//            SixHW()
+//            SevenHW()
+            EightHW()
         }
     }
 }
