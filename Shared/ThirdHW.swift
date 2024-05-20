@@ -16,10 +16,10 @@ class ThirdHW {
     let notSortArray = ArrayInt.arrayInt(lenght: 100, min: 0, max: 100)
     
     init() {
-        firstExBubble(notSortArray)
-        firstMod(notSortArray)
-        secondExShaker(notSortArray)
-        thirdEx(search: 45, notSortArray)
+        //        firstExBubble(notSortArray)
+        //        firstMod(notSortArray)
+//        secondExShaker(notSortArray)
+        //        thirdEx(search: 1, notSortArray)
     }
     
     //1. Попробовать оптимизировать пузырьковую сортировку. Сравнить количество операций сравнения оптимизированной и не оптимизированной программы. Написать функции сортировки, которые возвращают количество операций.
@@ -65,14 +65,12 @@ class ThirdHW {
     }
     
     //2. *Реализовать шейкерную сортировку.
-    func secondExShaker(_ notSortArray: [Int]) -> [Int] {
+    static func secondExShaker(_ notSortArray: [Int]) -> [Int] {
         var array = notSortArray
         var numbers = 0
         var min = 0
         var max = array.count - 1
-        
-        print(array)
-        
+
         while(min <= max) {
             for index in stride(from: max, to: min, by: -1) {
                 if array[index - 1] > array[index] {
@@ -82,25 +80,24 @@ class ThirdHW {
             }
             
             min += 1
-            
-            for index in min..<max {
-                if array[index] > array[index + 1] {
-                    array.swapAt(index, index + 1)
+
+            if min < max {
+                for index in min..<max {
+                    if array[index] > array[index + 1] {
+                        array.swapAt(index, index + 1)
+                    }
+                    numbers += 1
                 }
-                numbers += 1
             }
-            
             max -= 1
             numbers += 1
         }
-        
-        print(array)
-        print(numbers)
+
         return array
     }
     
     //3. Реализовать бинарный алгоритм поиска в виде функции, которой передается отсортированный массив. Функция возвращает индекс найденного элемента или -1, если элемент не найден.
-    func thirdEx(search value: Int, _ notSortArray: [Int]) {
+    static func thirdEx(search value: Int, _ notSortArray: [Int]) -> Bool {
         let array = secondExShaker(notSortArray)
         
         var left = 0
@@ -115,12 +112,13 @@ class ThirdHW {
             }
             middle = left + (right - left) / 2
         }
+
+        guard middle < array.count else { return true }
         
         if array[middle] == value {
-            print(middle + 1)
-            print(array[middle])
+            return false
         } else {
-            print("not value")
+            return true
         }
     }
 }
